@@ -1,0 +1,34 @@
+<html>
+  <body>
+    <script>
+    let songs = [
+      {
+      title: "Crazy in Love",
+      artist: "Beyonce",
+      album: "Dangerously In Love",
+      year: 2003,
+      art: "https://upload.wikimedia.org/wikipedia/en/8/84/Dangerously_In_Love_Album%282003%29.png"
+    },
+    {
+      title: "Blow",
+      artist: "Beyonce",
+      album: "Beyonce",
+      year: 2013,
+      art: "https://upload.wikimedia.org/wikipedia/commons/2/21/Beyoncé_-_Beyoncé.svg"
+    },
+    {
+      title: "Sorry",
+      artist: "Beyonce",
+      album: "Lemonade",
+      year: 2016,
+      art: "https://upload.wikimedia.org/wikipedia/en/5/53/Beyonce_-_Lemonade_%28Official_Album_Cover%29.png"
+      }
+    ];
+    for(let i = 0; i<songs.length;i++){
+      console.log(songs[i].title);
+      myTitle = document.createElement('div');
+      document.body.appendChild(myTitle);
+    }
+    </script>
+  </body>
+</html>
